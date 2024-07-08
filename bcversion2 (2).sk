@@ -1,0 +1,77 @@
+# Made by Sen9068
+# Contact mgr.sen9068.exe on discord for support
+
+command /broadcast <text>:
+    aliases: /bc
+    permission: broadcast.command
+    trigger:
+        broadcast "§x§E§A§7§C§7§C&lʙ§x§E§B§7§6§7§6&lʀ§x§E§B§7§0§7§0&lᴏ§x§E§C§6§A§6§A&lᴀ§x§E§D§6§4§6§4&lᴅ§x§E§D§5§D§5§D&lᴄ§x§E§E§5§7§5§7&lᴀ§x§E§E§5§1§5§1&lꜱ§x§E§F§4§B§4§B&lᴛ &8» <##5FE2C5>%arg-1%"
+        play sound "item.goat_horn.sound.0" with volume 1 and pitch 1 for all players
+        
+command /event <text>:
+    permission: broadcast.event
+    trigger:
+        if arg 1 is set:
+            broadcast "         &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&r&8(<##5FE2C5>Event&8)&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m"
+            broadcast ""
+            broadcast "                               <##EF4B4B>%arg-1%"
+            broadcast ""
+            broadcast "        &8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&r&8(<##5FE2C5>♦&8)&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m"
+            play sound "item.goat_horn.sound.4" with volume 1 and pitch 3 for all players
+        if arg 1 is not set:
+            message "&c&l<!> &cUsage: &f/bc <msg>"
+            
+command /announce <text>:
+    permission: broadcast.announce
+    trigger:
+        if arg 1 is set:
+            broadcast "         &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&r&8(<##4B9FEF>Annoumcement&8)&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m"
+            broadcast ""
+            broadcast "                <##EF4B4B>%arg-1%"
+            broadcast ""
+            broadcast "        &8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&r&8(<##4B9FEF>♦&8)&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m&8&m &8&m"
+            play sound "item.goat_horn.sound.4" with volume 1 and pitch 3 for all players
+        if arg 1 is not set:
+            message "&c&l<!> &cUsage: &f/bc <msg>"
+
+            #Command to instantly broadcast your message
+command /autobroadcast:
+    permission: autobc.use
+    trigger:
+        broadcast "<##4B9FEF>Annoumcement &8» &fYOUR TEXT HERE"
+#Auto broadcast
+# You can change it to minutes, hours for eg. 1 minutes I dont recommened to put all of your autobc to the same time 
+# You can change the hex ##EE5757 here https://www.birdflop.com/resources/rgb/
+every 2 minutes:
+    broadcast "<##EE5757>Rules &8» &fDon´t forget to read the server rules"
+    wait 1 minutes
+    broadcast "<##3D8BE2>Discord &8» &fJoin our discord server <##3D8BE2>/discord"
+
+# DISCORD
+options:
+	prefix: <##3D8BE2>Discord &8»
+	SoundD: BLOCK_CHEST_OPEN
+	SoundD-Volume: 1
+	SoundD-Pitch: 1
+
+command /discord:
+	aliases: /discord, /dc
+	trigger:
+    # change the link here
+		send "{@prefix} &7https://discord.gg/YOURDISCORD" to player
+		play sound "{@SoundD}" with volume {@SoundD-Volume} and pitch {@SoundD-Pitch}
+
+# WEB
+options:
+	prefix: <##FCD05C>Web &8»
+	SoundD: BLOCK_CHEST_OPEN
+	SoundD-Volume: 1
+	SoundD-Pitch: 1
+
+command /web:
+	aliases: /vip, /buy
+	trigger:
+    # change the link here
+		send "{@prefix} &fhttps://yourweb.sk" to player
+		play sound "{@SoundD}" with volume {@SoundD-Volume} and pitch {@SoundD-Pitch}
+        
